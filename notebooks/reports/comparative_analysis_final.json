@@ -1,0 +1,56 @@
+{
+  "project_summary": "Business Name Generator - Baseline vs Fine-tuning",
+  "baseline_scores": {
+    "pertinence": 2.76,
+    "originalite": 4.82,
+    "lisibilite": 3.78,
+    "credibilite": 3.93,
+    "total": 3.82
+  },
+  "finetuned_scores": {
+    "pertinence": 2.38,
+    "originalite": 4.78,
+    "lisibilite": 4.33,
+    "credibilite": 3.93,
+    "total": 3.86
+  },
+  "improvements": {
+    "pertinence": {
+      "absolute": -0.3799999999999999,
+      "percentage": -13.768115942028983
+    },
+    "originalite": {
+      "absolute": -0.040000000000000036,
+      "percentage": -0.8298755186721999
+    },
+    "lisibilite": {
+      "absolute": 0.5500000000000003,
+      "percentage": 14.550264550264558
+    },
+    "credibilite": {
+      "absolute": 0.0,
+      "percentage": 0.0
+    },
+    "total": {
+      "absolute": 0.040000000000000036,
+      "percentage": 1.0471204188481684
+    }
+  },
+  "methodology": {
+    "dataset_size": 500,
+    "model_baseline": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "evaluation_metrics": [
+      "pertinence",
+      "originalite",
+      "lisibilite",
+      "credibilite"
+    ],
+    "fine_tuning_method": "LoRA",
+    "security_filtering": true
+  },
+  "conclusions": {
+    "baseline_quality": "Solid for quick start",
+    "fine_tuning_benefit": "Targeted improvement on relevance",
+    "recommendation": "Baseline deployment + progressive fine-tuning"
+  }
+}

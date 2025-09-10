@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+.DS_Store
+.ipynb_checkpoints/
+.cache/
+outputs/
+checkpoints/
+wandb/
+artifacts/
+*.log
+
+# VSCode
+.vscode/
+
+# Data
+/data/raw/
+/data/interim/
+/data/processed/
+
+# Models
+/models/

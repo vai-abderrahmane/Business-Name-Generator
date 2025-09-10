@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "total_predictions": 45,
+    "distribution": {
+      "ok": 43,
+      "no_capitalization": 1,
+      "too_generic": 1
+    },
+    "problematic_rate": 4.4,
+    "most_common_issue": "no_capitalization"
+  },
+  "examples": {
+    "ok": [
+      "Educational",
+      "Légende Tours"
+    ],
+    "no_capitalization": [
+      "user"
+    ],
+    "too_generic": [
+      "MediaInc"
+    ]
+  }
+}
